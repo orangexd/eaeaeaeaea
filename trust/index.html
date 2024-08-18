@@ -1,0 +1,279 @@
+<header class="siteHeader Dark-Theme-Header">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Bootstrap Font Icon CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">	  
+	<link href="npm/bootstrap-5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" >
+	<link href="css/arial-rounded-mt-bold.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-RB8721B8MH"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'G-RB8721B8MH');
+	</script>
+  <div class="container">
+	<img style="width: 8vw; class=" img-fluid" src="images/Logo.png">
+    <p class="siteHeader__title">r/<span style="Color: #EE3745;">ROBLOX</span><span style="Color: #3BEA57;">Exploiting</span></p>
+  </div>
+  <title>r/RobloxExploiting</title>
+	<link rel="canonical" href="http://whatexploitsare.online" />
+</header>
+<body class="Dark-Theme">
+<div class="container">
+  <section class="serviceGroup">
+	<div class="alert alert-discord text-center" role="alert">
+	  <a href="https://discord.gg/5cdDPNnepw" target="_blank">Click here to join the discord!</a>
+	</div>
+	<div class="alert alert-primary text-center" role="alert" id="roblox-version">
+		Current Roblox version: <b>Loading...</b>
+	  </div>
+	  
+	  <script>
+		async function fetchRobloxVersion() {
+		  try {
+			const [windowsResponse, macResponse] = await Promise.all([
+			  fetch('https://setup.rbxcdn.com/version'),
+			  fetch('https://setup.rbxcdn.com/mac/version')
+			]);
+	  
+			const windowsVersion = await windowsResponse.text();
+			const macVersion = await macResponse.text();
+	  
+			document.getElementById('roblox-version').innerHTML = `
+			  Current Roblox version: <b>${windowsVersion.trim()} (Windows)</b> | 
+			  <b>${macVersion.trim()} (Mac)</b>
+			`;
+		  } catch (error) {
+			console.error('Failed to fetch Roblox version:', error);
+			document.getElementById('roblox-version').innerHTML = `
+			  Current Roblox version: <b>Error fetching version</b>
+			`;
+		  }
+		}
+	  
+		fetchRobloxVersion();
+	  </script>
+	<br>
+	<h2 style="font-size: 20px;">Windows Script Executor Exploits</h2>
+	<br>
+    <ul class="serviceList serviceGroup__list">
+      <li class="serviceList__item" data-bs-toggle="collapse" href="#SynapseCollapse" role="button" aria-expanded="false" aria-controls="SynapseCollapse">
+        <p class="serviceList__status"><span class="ok"><i class="bi bi-caret-up-fill"></i> Updated</span></p>
+        <p class="serviceList__name">
+          Synapse Z <span class="badge bg-secondary">v2.14.7e</span>  <span class="badge bg-primary">Last updated: 2022-02-07</span>
+        </p>
+      </li>
+	  <div style="width:100%;" class="collapse" id="SynapseCollapse">
+		<br>
+		<center><p>To be added.</p></center>
+		<br>
+		<div class="row" style="width:100%;" data-bs-toggle="nil" href="#">
+			<div class="col-sm-12" align="center">
+				<a href="https://x.synapse.to/" target="_blank"><button type="button" class="btn btn-outline-light btn-sq-responsive w-20">Visit Website</button></a>
+				<a href="http://x.synapse.to/" target="_blank"><button type="button" class="btn btn-outline-primary btn-sq-responsive w-20">Join Discord</button></a>
+				<a href="https://v3rmillion.net/showthread.php?tid=990476" target="_blank"><button type="button" class="btn btn-outline-danger btn-sq-responsive w-20">Offical V3RM Thread</button></a>
+				<a href="https://x.synapse.to/" target="_blank"><button type="button" class="btn btn-outline-success btn-sq-responsive w-20">Purchase</button></a>
+			</div>
+		</div>
+		<br>
+	  </div>
+
+	  <li class="serviceList__item" data-bs-toggle="collapse" href="#WaveCollapse" role="button" aria-expanded="false" aria-controls="WaveCollapse">
+        <p class="serviceList__status"><span class="ok"><i class="bi bi-caret-up-fill"></i> Updated</span></p>
+        <p class="serviceList__name">
+          Wave <span class="badge bg-secondary">Unknown</span>  <span class="badge bg-primary">Last updated: 2022-02-02</span>
+        </p>
+      </li>
+	  <div style="width:100%;" class="collapse" id="WaveCollapse">
+		<br>
+		<center><p>To be added.</p></center>
+		<br>
+		<div class="row" style="width:100%;" data-bs-toggle="nil" href="#">
+			<div class="col-sm-12" align="center">
+				<a href="https://www.thundermods.com/Wave/" target="_blank"><button type="button" class="btn btn-outline-light btn-sq-responsive w-20">Visit Website</button></a>
+				<a href="https://www.thundermods.com/discord.php" target="_blank"><button type="button" class="btn btn-outline-primary btn-sq-responsive w-20">Join Discord</button></a>
+				<a href="https://v3rmillion.net/showthread.php?tid=794142" target="_blank"><button type="button" class="btn btn-outline-danger btn-sq-responsive w-20">Offical V3RM Thread</button></a>
+				<a href="https://www.thundermods.com/Wave/" target="_blank"><button type="button" class="btn btn-outline-success btn-sq-responsive w-20">Download</button></a>
+			</div>
+		</div>
+		<br>
+	  </div>
+	  <li class="serviceList__item" data-bs-toggle="collapse" href="#SolaraCollapse" role="button" aria-expanded="false" aria-controls="SolaraCollapse">
+        <p class="serviceList__status"><span class="ok"><i class="bi bi-caret-up-fill"></i> Updated</span></p>
+        <p class="serviceList__name">
+          Solara <span class="badge bg-secondary">Unknown</span>  <span class="badge bg-primary">Last updated: 2022-02-07</span>
+        </p>
+      </li>
+	  <div style="width:100%;" class="collapse" id="SolaraCollapse">
+		<br>
+		<center><p>To be added.</p></center>
+		<br>
+		<div class="row" style="width:100%;" data-bs-toggle="nil" href="#">
+			<div class="col-sm-12" align="center">
+				<a href="https://fluxteam.xyz/" target="_blank"><button type="button" class="btn btn-outline-light btn-sq-responsive w-20">Visit Website</button></a>
+				<a href="https://fluxteam.xyz/external-files/discord.php" target="_blank"><button type="button" class="btn btn-outline-primary btn-sq-responsive w-20">Join Discord</button></a>
+				<a href="https://v3rmillion.net/showthread.php?tid=1110030" target="_blank"><button type="button" class="btn btn-outline-danger btn-sq-responsive w-20">Offical V3RM Thread</button></a>
+				<a href="https://fluxteam.xyz/get" target="_blank"><button type="button" class="btn btn-outline-success btn-sq-responsive w-20">Download</button></a>
+			</div>
+		</div>
+		<br>
+	  </div>
+	  <li class="serviceList__item" data-bs-toggle="collapse" href="#CeleryCollapse" role="button" aria-expanded="false" aria-controls="CeleryCollapse">
+        <p class="serviceList__status"><span class="ok"><i class="bi bi-caret-up-fill"></i> Updated</span></p>
+        <p class="serviceList__name">
+          Celery <span class="badge bg-secondary">0.1.016</span>  <span class="badge bg-primary">Last updated: 2022-02-02</span>
+        </p>
+      </li>
+	  <div style="width:100%;" class="collapse" id="CeleryCollapse">
+		<br>
+		<center><p>To be added.</p></center>
+		<br>
+		<div class="row" style="width:100%;" data-bs-toggle="nil" href="#">
+			<div class="col-sm-12" align="center">
+				<a href="https://github.com/thedoomed/Celery" target="_blank"><button type="button" class="btn btn-outline-light btn-sq-responsive w-20">Visit Website</button></a>
+				<a href="https://github.com/thedoomed/Celery" target="_blank"><button type="button" class="btn btn-outline-primary btn-sq-responsive w-20">Join Discord</button></a>
+				<a href="https://v3rmillion.net/showthread.php?tid=1142623" target="_blank"><button type="button" class="btn btn-outline-danger btn-sq-responsive w-20">Offical V3RM Thread</button></a>
+				<a href="https://github.com/thedoomed/Celery" target="_blank"><button type="button" class="btn btn-outline-success btn-sq-responsive w-20">Download</button></a>
+			</div>
+		</div>
+		<br>
+	  </div>
+	</ul>
+	<br>
+	<h2 style="font-size: 20px;">Mac Script Executor Exploits</h2>
+	<br>
+    <ul class="serviceList serviceGroup__list">
+      <li class="serviceList__item" data-bs-toggle="collapse" href="#MacSploitCollapse" role="button" aria-expanded="false" aria-controls="MacSploitCollapse">
+        <p class="serviceList__status"><span class="ok"><i class="bi bi-caret-up-fill"></i> Updated</span></p>
+        <p class="serviceList__name">
+          MacSploit <span class="badge bg-secondary">v2.14.7e</span>  <span class="badge bg-primary">Last updated: 2022-02-07</span>
+        </p>
+      </li>
+	  <div style="width:100%;" class="collapse" id="MacSploitCollapse">
+		<br>
+		<center><p>To be added.</p></center>		<br>
+		<div class="row" style="width:100%;" data-bs-toggle="nil" href="#">
+			<div class="col-sm-12" align="center">
+				<a href="https://x.synapse.to/" target="_blank"><button type="button" class="btn btn-outline-light btn-sq-responsive w-20">Visit Website</button></a>
+				<a href="http://x.synapse.to/" target="_blank"><button type="button" class="btn btn-outline-primary btn-sq-responsive w-20">Join Discord</button></a>
+				<a href="https://v3rmillion.net/showthread.php?tid=990476" target="_blank"><button type="button" class="btn btn-outline-danger btn-sq-responsive w-20">Offical V3RM Thread</button></a>
+				<a href="https://x.synapse.to/" target="_blank"><button type="button" class="btn btn-outline-success btn-sq-responsive w-20">Purchase</button></a>
+			</div>
+		</div>
+		<br>
+	  </div>
+
+
+	</ul>
+	<br>
+	<h2 style="font-size: 20px;">Aimbot/ESP Exploits</h2>
+	<ul class="serviceList serviceGroup__list">
+	<li class="serviceList__item" data-bs-toggle="collapse" href="#RoWareCollapse" role="button" aria-expanded="false" aria-controls="RoWareCollapse">
+        <p class="serviceList__status"><span class="ok"><i class="bi bi-caret-up-fill"></i> Updated</span></p>
+        <p class="serviceList__name">
+          Nezur <span class="badge bg-secondary">1.0.0.8</span>  <span class="badge bg-primary">Last updated: 2022-02-07</span>  <span class="badge bg-danger">Internal</span>
+        </p>
+      </li>
+	  <div style="width:100%;" class="collapse" id="RoWareCollapse">
+		<br>
+		<center><p>To be added.</p></center>		<br>
+		<div class="row" style="width:100%;" data-bs-toggle="nil" href="#">
+			<div class="col-sm-12" align="center">
+				<a href="https://script-ware.com/" target="_blank"><button type="button" class="btn btn-outline-light btn-sq-responsive w-20">Visit Website</button></a>
+				<a href="https://script-ware.com/discord" target="_blank"><button type="button" class="btn btn-outline-primary btn-sq-responsive w-20">Join Discord</button></a>
+				<a href="https://v3rmillion.net/showthread.php?tid=1157135" target="_blank"><button type="button" class="btn btn-outline-danger btn-sq-responsive w-20">Offical V3RM Thread</button></a>
+				<a href="https://script-ware.com/roware" target="_blank"><button type="button" class="btn btn-outline-success btn-sq-responsive w-20">Download</button></a>
+			</div>
+		</div>
+		<br>
+	  </div>
+
+	  <li class="serviceList__item" data-bs-toggle="collapse" href="#DX9Collapse" role="button" aria-expanded="false" aria-controls="DX9Collapse">
+        <p class="serviceList__status"><span class="ok"><i class="bi bi-caret-up-fill"></i> Updated</span></p>
+		
+        <p class="serviceList__name">
+          DX9WARE <span class="badge bg-secondary">Unknown</span>  <span class="badge bg-primary">Last updated: 2022-02-07</span>  <span class="badge bg-danger">Internal</span>
+        </p>
+      </li>
+	  <div style="width:100%;" class="collapse" id="DX9Collapse">
+		<br>
+		<center><p>To be added.</p></center>		<br>
+		<div class="row" style="width:100%;" data-bs-toggle="nil" href="#">
+			<div class="col-sm-12" align="center">
+				<a href="https://cultofintellect.com/dx9ware" target="_blank"><button type="button" class="btn btn-outline-light btn-sq-responsive w-20">Visit Website</button></a>
+				<a href="https://cultofintellect.com/discord" target="_blank"><button type="button" class="btn btn-outline-primary btn-sq-responsive w-20">Join Discord</button></a>
+				<a href="https://v3rmillion.net/showthread.php?tid=1079642" target="_blank"><button type="button" class="btn btn-outline-danger btn-sq-responsive w-20">Offical V3RM Thread</button></a>
+				<a href="https://store.cultofintellect.com/" target="_blank"><button type="button" class="btn btn-outline-success btn-sq-responsive w-20">Purchase</button></a>
+			</div>
+		</div>
+		<br>
+	  </div>
+	  <li class="serviceList__item" data-bs-toggle="collapse" href="#HorizonCollapse" role="button" aria-expanded="false" aria-controls="HorizonCollapse">
+        <p class="serviceList__status"><span class="ok"><i class="bi bi-caret-up-fill"></i> Updated</span></p>
+        <p class="serviceList__name">
+          Horizon <span class="badge bg-secondary">Unknown</span>  <span class="badge bg-primary">Last updated: 2022-02-07</span>  <span class="badge bg-danger">Internal</span>
+        </p>
+      </li>
+	  <div style="width:100%;" class="collapse" id="HorizonCollapse">
+		<br>
+		<center><p>To be added.</p></center>		<br>
+		<div class="row" style="width:100%;" data-bs-toggle="nil" href="#">
+			<div class="col-sm-12" align="center">
+				<a href="https://cultofintellect.com/dx9ware" target="_blank"><button type="button" class="btn btn-outline-light btn-sq-responsive w-20">Visit Website</button></a>
+				<a href="https://cultofintellect.com/discord" target="_blank"><button type="button" class="btn btn-outline-primary btn-sq-responsive w-20">Join Discord</button></a>
+				<a href="https://v3rmillion.net/showthread.php?tid=1079642" target="_blank"><button type="button" class="btn btn-outline-danger btn-sq-responsive w-20">Offical V3RM Thread</button></a>
+				<a href="https://store.cultofintellect.com/" target="_blank"><button type="button" class="btn btn-outline-success btn-sq-responsive w-20">Purchase</button></a>
+			</div>
+		</div>
+		<br>
+	  </div>
+    </ul>
+  </section>
+	<br><br>
+
+</div>
+
+<footer class="siteFooter text-center">
+
+	<b><a target="_blank" style="color:#cd1818 !important;">This website is inspired WhatExploitsAre.Online by HamstaGang</a></b>
+</footer>
+
+<script>
+
+	const apiUrl = 'http://weao.xyz/api/status/exploits';
+
+	async function fetchExploitData() {
+  	  const response = await fetch(apiUrl, {
+    	    headers: {
+       	     'User-Agent': 'WEAO-3PService'
+     	   }
+    	});
+    	const data = await response.json();
+   	 return data;
+	}
+
+	function updateStatusText(data) {
+  	   	data.forEach(exploit => {
+
+         	 const statusElement = document.querySelector(`.serviceList__title:contains(${exploit.title})`)
+             	 .closest('.serviceList__item')
+             	 .querySelector('.serviceList__status span');
+
+         	 if (statusElement) {
+
+          	    statusElement.innerHTML = `<i class="bi bi-caret-up-fill"></i> ${exploit.updatedDate}`;
+        	  }
+     	 });
+  	}
+
+  	document.addEventListener('DOMContentLoaded', async () => {
+     	 const exploitData = await fetchExploitData();
+    	  updateStatusText(exploitData);
+  	});
+
+
+  </script>
+<script src="jquery-3.6.0.slim.min.js" ></script>
+<script src="npm/bootstrap-5.1.3/dist/js/bootstrap.bundle.min.js" ></script>
